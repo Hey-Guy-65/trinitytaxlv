@@ -17,7 +17,7 @@ import {
 } from "lucide-react";
 
 import heroImage from "@/assets/hero-office.jpg";
-import logo from "@/assets/trinity-logo.png.asset.json";
+import logo from "@/assets/trinity-logo.jpg";
 import { ChatWidget } from "@/components/ChatWidget";
 import { GoogleMap } from "@/components/GoogleMap";
 import { Button } from "@/components/ui/button";
@@ -113,7 +113,7 @@ function Home() {
       <header className="sticky top-0 z-40 border-b border-border/60 bg-background/85 backdrop-blur">
         <div className="mx-auto flex max-w-6xl items-center gap-4 px-5 py-3">
           <a href="#top" className="flex items-center gap-3">
-            <img src={logo.url} alt="Trinity Tax Consultants Inc. logo" className="size-11" />
+            <img src={logo} alt="Trinity Tax Consultants Inc. logo" className="size-11" />
             <span className="hidden leading-tight sm:block">
               <span className="block font-display text-base font-semibold">
                 Trinity Tax Consultants
@@ -187,7 +187,7 @@ function Home() {
 
             <div className="justify-self-center">
               <img
-                src={logo.url}
+                src={logo}
                 alt="Trinity Tax Consultants Inc."
                 className="w-56 drop-shadow-[0_20px_45px_rgba(0,0,0,0.55)] md:w-72"
               />
@@ -372,7 +372,7 @@ function Home() {
       <footer className="border-t border-border bg-background">
         <div className="mx-auto flex max-w-6xl flex-col gap-6 px-5 py-10 sm:flex-row sm:items-center sm:justify-between">
           <div className="flex items-center gap-3">
-            <img src={logo.url} alt="" className="size-10" />
+            <img src={logo} alt="" className="size-10" />
             <div>
               <p className="font-display font-semibold">Trinity Tax Consultants Inc.</p>
               <p className="flex items-center gap-1.5 text-xs text-muted-foreground">

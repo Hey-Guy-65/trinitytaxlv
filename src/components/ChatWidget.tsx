@@ -3,7 +3,7 @@ import { DefaultChatTransport } from "ai";
 import { MessageCircle, Phone, X } from "lucide-react";
 import { useEffect, useRef, useState } from "react";
 
-import logo from "@/assets/trinity-logo.png.asset.json";
+import logo from "@/assets/trinity-logo.jpg";
 import {
   Conversation,
   ConversationContent,
@@ -74,7 +74,7 @@ export function ChatWidget() {
         <div className="fixed inset-x-3 bottom-3 z-50 flex h-[min(78vh,620px)] flex-col overflow-hidden rounded-2xl border border-border bg-background shadow-[var(--shadow-lift)] sm:inset-x-auto sm:right-5 sm:w-[400px]">
           <header className="flex items-center gap-3 bg-[image:var(--gradient-ink)] px-4 py-3 text-ink-foreground">
             <img
-              src={logo.url}
+              src={logo}
               alt="Trinity Tax Consultants"
               className="size-9 rounded-full bg-ink-foreground/5"
             />
